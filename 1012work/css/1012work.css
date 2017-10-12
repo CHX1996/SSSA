@@ -57,9 +57,9 @@ html, html body, html body section, html body section ul {
         border-radius: 0.1923076923rem;
         text-align: center;
         margin-top: 0.6153846154rem;
-        margin-right: 0.3846153846rem; }
+        margin-right: 0.3846153846rem;
+        line-height: 0.9615384615rem; }
     html body section, html body section ul body section {
-      overflow-x: hidden;
       padding-top: 7.8rem; }
       html body section .hdgz {
         width: 14.6153846154rem;
@@ -111,8 +111,9 @@ html, html body, html body section, html body section ul {
             color: #9090ab;
             float: left;
             margin-left: 0.1923076923rem;
-            font-size: 0.6538461538rem;
-            margin-top: 0.1923076923rem; }
+            font-size: 0.5769230769rem;
+            margin-top: 0.3076923077rem;
+            text-decoration: line-through; }
           html body section ul li div {
             width: 8.8461538462rem;
             height: 1.2307692308rem;
@@ -140,10 +141,10 @@ html, html body, html body section, html body section ul {
               text-align: center;
               line-height: 1.1538461538rem; }
           html body section ul li img:nth-of-type(2) {
-            width: 200px;
-            height: 200px;
+            width: 3rem;
+            height: 8.0769230769rem;
             position: absolute;
-            left: 10.1538461538rem;
-            top: 1.4615384615rem; }
+            left: 12.3076923077rem;
+            top: 1.2307692308rem; }
 
 /*# sourceMappingURL=1012work.css.map */

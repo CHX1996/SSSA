@@ -17,11 +17,10 @@ html{ width: 100%;height: 100%;
         p{font-size: 14/$sc+rem;color: #fafafa;float: left ;margin-left: 15/$sc+rem;margin-top:5/$sc+rem}
       }
       b{ width: 80/$sc+rem;height: 25/$sc+rem;float: right;color: #fafafa;font-size: 16/$sc+rem;background: red;border-radius: 5/$sc+rem;
-      text-align: center;margin-top:16/$sc+rem;margin-right:10/$sc+rem;
+      text-align: center;margin-top:16/$sc+rem;margin-right:10/$sc+rem;line-height: 25/$sc+rem;
       }
     }
     section{
-      overflow-x: hidden;
       @extend html;
       padding-top: 7.8rem;
 
@@ -37,7 +36,7 @@ html{ width: 100%;height: 100%;
 
       }
       ul{
-        @extend html;
+      @extend html;
         margin-top: 26/$sc+rem;
 
         li{position: relative;margin-top: 15/$sc+rem;
@@ -45,13 +44,13 @@ html{ width: 100%;height: 100%;
           img:nth-of-type(1){ width: 135/$sc+rem;height: 135/$sc+rem; float: left}
           p{margin-left:15/$sc+rem;font-size: 20.8/$sc+rem;float: left;width: 234/$sc+rem;height: 85/$sc+rem ;margin-top: -3px }
          h4{ width: 60/$sc+rem;height: 21/$sc+rem;color: #d32c57;float: left;margin-left:12/$sc+rem;}
-          h5{ width: 55/$sc+rem;height: 21/$sc+rem;color: #9090ab;float: left;margin-left:5/$sc+rem;font-size: 17/$sc+rem;margin-top: 5/$sc+rem}
+          h5{ width: 55/$sc+rem;height: 21/$sc+rem;color: #9090ab;float: left;margin-left:5/$sc+rem;font-size: 15/$sc+rem;margin-top: 8/$sc+rem;text-decoration: line-through}
           div{width: 230/$sc+rem;height: 32/$sc+rem;float: left;margin-left: 5/$sc+rem;margin-top: 4/$sc+rem;
             div:nth-of-type(1){width: 110/$sc+rem;height: 32/$sc+rem;background: #10c3ab;border-radius: 6/$sc+rem;float: left;font-size: 16/$sc+rem ;color: #fafafa;text-align: center;line-height: 30/$sc+rem}
             div:nth-of-type(2){width: 110/$sc+rem;height: 32/$sc+rem;background: #db2e5b;border-radius: 6/$sc+rem;float:right ;font-size: 16/$sc+rem;color: #fafafa;text-align: center;line-height: 30/$sc+rem}
 
           }
-          img:nth-of-type(2){width: 200px;height: 200px;position: absolute;left: 264/$sc+rem;top: 38/$sc+rem}
+          img:nth-of-type(2){width: 78/$sc+rem;height: 210/$sc+rem;position: absolute;left: 320/$sc+rem;top: 32/$sc+rem}
         }
       }
     }
