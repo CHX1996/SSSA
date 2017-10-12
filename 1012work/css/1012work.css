@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, html body, html body section, html body section ul {
+  width: 100%;
+  height: 100%; }
+  html body, html body section body {
+    position: relative;
+    padding-bottom: 50px;
+    box-sizing: border-box; }
+    html body header, html body section ul body header {
+      width: 100%;
+      height: 7.1923076923rem;
+      position: fixed;
+      top: 0;
+      z-index: 9999; }
+      html body header img:nth-of-type(1) {
+        width: 15.9615384615rem;
+        height: 7.1923076923rem; }
+    html body footer, html body section ul body footer {
+      width: 100%;
+      height: 2.1923076923rem;
+      background: #666666;
+      opacity: 0.6;
+      position: fixed;
+      bottom: 0; }
+      html body footer div {
+        width: 5.7692307692rem;
+        height: 1.7307692308rem;
+        margin-left: 0.3846153846rem;
+        margin-top: 0.2307692308rem;
+        float: left; }
+        html body footer div img {
+          width: 1.7307692308rem;
+          height: 1.7307692308rem;
+          float: left; }
+        html body footer div h5 {
+          color: #fafafa;
+          float: left;
+          margin-left: 0.5769230769rem;
+          margin-top: -0.1923076923rem; }
+        html body footer div p {
+          font-size: 0.5384615385rem;
+          color: #fafafa;
+          float: left;
+          margin-left: 0.5769230769rem;
+          margin-top: 0.1923076923rem; }
+      html body footer b {
+        width: 3.0769230769rem;
+        height: 0.9615384615rem;
+        float: right;
+        color: #fafafa;
+        font-size: 0.6153846154rem;
+        background: red;
+        border-radius: 0.1923076923rem;
+        text-align: center;
+        margin-top: 0.6153846154rem;
+        margin-right: 0.3846153846rem; }
+    html body section, html body section ul body section {
+      overflow-x: hidden;
+      padding-top: 7.8rem; }
+      html body section .hdgz {
+        width: 14.6153846154rem;
+        height: 4.3846153846rem;
+        margin-left: 0.6153846154rem; }
+        html body section .hdgz img {
+          margin-left: 5.7692307692rem;
+          width: 3.2307692308rem;
+          height: 0.8461538462rem; }
+        html body section .hdgz p {
+          font-size: 0.6538461538rem;
+          line-height: 0.6923076923rem; }
+          html body section .hdgz p b {
+            display: inline-block;
+            line-height: 1.7307692308rem;
+            width: 1.6923076923rem;
+            height: 1.6923076923rem;
+            background: #d32c57;
+            border-radius: 50%; }
+      html body section ul {
+        margin-top: 1rem; }
+        html body section ul li {
+          position: relative;
+          margin-top: 0.5769230769rem;
+          width: 14.9615384615rem;
+          height: 6.1538461538rem;
+          margin-left: 0.5rem;
+          border-bottom: 1px solid #c3c3c3; }
+          html body section ul li img:nth-of-type(1) {
+            width: 5.1923076923rem;
+            height: 5.1923076923rem;
+            float: left; }
+          html body section ul li p {
+            margin-left: 0.5769230769rem;
+            font-size: 0.8rem;
+            float: left;
+            width: 9rem;
+            height: 3.2692307692rem;
+            margin-top: -3px; }
+          html body section ul li h4 {
+            width: 2.3076923077rem;
+            height: 0.8076923077rem;
+            color: #d32c57;
+            float: left;
+            margin-left: 0.4615384615rem; }
+          html body section ul li h5 {
+            width: 2.1153846154rem;
+            height: 0.8076923077rem;
+            color: #9090ab;
+            float: left;
+            margin-left: 0.1923076923rem;
+            font-size: 0.6538461538rem;
+            margin-top: 0.1923076923rem; }
+          html body section ul li div {
+            width: 8.8461538462rem;
+            height: 1.2307692308rem;
+            float: left;
+            margin-left: 0.1923076923rem;
+            margin-top: 0.1538461538rem; }
+            html body section ul li div div:nth-of-type(1) {
+              width: 4.2307692308rem;
+              height: 1.2307692308rem;
+              background: #10c3ab;
+              border-radius: 0.2307692308rem;
+              float: left;
+              font-size: 0.6153846154rem;
+              color: #fafafa;
+              text-align: center;
+              line-height: 1.1538461538rem; }
+            html body section ul li div div:nth-of-type(2) {
+              width: 4.2307692308rem;
+              height: 1.2307692308rem;
+              background: #db2e5b;
+              border-radius: 0.2307692308rem;
+              float: right;
+              font-size: 0.6153846154rem;
+              color: #fafafa;
+              text-align: center;
+              line-height: 1.1538461538rem; }
+          html body section ul li img:nth-of-type(2) {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: 10.1538461538rem;
+            top: 1.4615384615rem; }
+
+/*# sourceMappingURL=1012work.css.map */
